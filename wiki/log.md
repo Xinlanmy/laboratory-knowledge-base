@@ -14,3 +14,9 @@
 - 将主仓库定位调整为整本书的总目录和入口站。
 - 各部门继续在自己的 GitHub 仓库维护正文；本仓库只登记章节、来源链接和导航摘要。
 - 部门仓库链接待成员提供后补入分类目录。
+
+## [2026-10-09] catalog | 亚博智能小车学习模块
+
+- 新增学习课程模块「亚博智能小车」（ROSMASTER M3 PRO）学习指南，位于 `docs/知识体系/学习课程/亚博智能小车/index.md`。
+- 正文来源登记为 Yahboom 官方教程仓库 <https://github.com/YahboomTechnology/ROSMASTER-M3PRO>；本仓库只保留学习路线与导航，不复制官方教程正文。
+- 同步更新 mkdocs.yml 导航、学习课程目录页与 `sources/repositories.md` 外部来源表。
