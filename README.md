@@ -14,6 +14,8 @@
 - [更新日志](wiki/log.md)
 - [部门正文仓库清单](sources/repositories.md)
 
+目前纳入目录的部门：机器狗、双足轮式机器人、ROS 小车、工业设计、机械臂、嵌入式开发。各部门仓库地址待提供，见[仓库清单](sources/repositories.md)。
+
 ## 目录
 
 ```text
