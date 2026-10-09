@@ -1,5 +1,5 @@
-site_name: 实验室技术知识库
-site_description: 实验室持续更新的技术手册、课程与项目复现档案
+site_name: 实验室技术知识库总目录
+site_description: 实验室各部门技术文档与项目复现内容的统一目录入口
 site_url: https://xinlanmy.github.io/laboratory-knowledge-base/
 repo_url: https://github.com/xinlanmy/laboratory-knowledge-base
 repo_name: xinlanmy/laboratory-knowledge-base
