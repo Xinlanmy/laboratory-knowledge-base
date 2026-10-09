@@ -1,0 +1,56 @@
+site_name: 实验室技术知识库
+site_description: 实验室持续更新的技术手册、课程与项目复现档案
+site_url: https://xinlanmy.github.io/laboratory-knowledge-base/
+repo_url: https://github.com/xinlanmy/laboratory-knowledge-base
+repo_name: xinlanmy/laboratory-knowledge-base
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 切换深色模式
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换浅色模式
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+nav:
+  - 首页: index.md
+  - 知识体系:
+      - 总览: 知识体系/index.md
+      - 基础知识: 知识体系/基础知识/index.md
+      - 技术模块: 知识体系/技术模块/index.md
+      - 学习课程: 知识体系/学习课程/index.md
+      - 项目实践: 知识体系/项目实践/index.md
+      - 技术经验: 知识体系/技术经验/index.md
+      - 历史与交接: 知识体系/历史与交接/index.md
+  - 关于知识库:
+      - 贡献指南: 关于知识库/贡献指南.md
+      - 文档写入规范: 关于知识库/实验室技术知识库文档写入规范.md
+      - 写作模板:
+          - 技术模块: 写作模板/技术模块模板.md
+          - 课程: 写作模板/课程模板.md
+          - 项目 README: 写作模板/项目README模板.md
+          - 问题复盘: 写作模板/问题复盘模板.md
+  - LLM Wiki:
+      - 索引: wiki/index.md
+      - 更新日志: wiki/log.md
+      - 写入规范: wiki/规范.md
