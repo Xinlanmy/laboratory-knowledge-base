@@ -10,8 +10,24 @@
 | 工业设计 | 工业设计部门 | 设计资料、项目实践、经验复盘等（待确认） | 待提供 | 待登记 |
 | 机械臂 | 机械臂部门 | 技术模块、项目实践、经验复盘等（待确认） | 待提供 | 待登记 |
 | 嵌入式开发 | 嵌入式开发部门 | 技术模块、项目实践、经验复盘等（待确认） | 待提供 | 待登记 |
+| 终端服务部 | 终端服务部（维护账号 [@publieople](https://github.com/publieople)） | 基础知识、技术模块、学习课程、项目实践、技术经验、历史与交接 | [publieople/lab-terminal-service](https://github.com/publieople/lab-terminal-service) | 已登记 |
 
-部门对应的知识分类和章节范围需要收到仓库后再确认。添加链接时，请指向具体章节页面或仓库中的 README/目录，方便成员直接到达正文。
+其余部门对应的知识分类和章节范围需要收到仓库后再确认。添加链接时，请指向具体章节页面或仓库中的 README/目录，方便成员直接到达正文。
+
+### 终端服务部 · 分类入口
+
+部门总入口：<https://publieople.github.io/lab-terminal-service/部门/终端服务部/>
+
+| 分类 | 入口 |
+|---|---|
+| 基础知识 | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/基础知识/> |
+| 技术模块 | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/技术模块/> |
+| 学习课程 | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/学习课程/> |
+| 项目实践 | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/项目实践/> |
+| 技术经验 | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/技术经验/> |
+| 历史与交接 | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/历史与交接/> |
+
+这些分类入口是**目录级 URL**：部门仓库里新增或调整文档不会改变这些链接，主书登记一次即可长期使用。
 
 ## 外部资料来源
 
