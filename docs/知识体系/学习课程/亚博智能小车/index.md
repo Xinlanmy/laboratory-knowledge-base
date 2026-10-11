@@ -2,8 +2,8 @@
 
 > **亚博小车学习资料 GitHub 仓库：<https://github.com/YahboomTechnology/ROSMASTER-M3PRO>**
 >
-> 状态：草稿（学习路线依据官方教程仓库目录设计，来源链接已核实）
-> 维护日期：2026-10-09
+> 状态：已核实（学习路线依据官方教程仓库目录设计，章节直达链接已逐一核对）
+> 维护日期：2026-10-11
 
 ## 课程定位
 
@@ -31,18 +31,18 @@
 
 ## 知识模块（学习顺序）
 
-整体分两块：**阶段 0–4 造机器人的能力（身体），阶段 5–6 给车装 AI 大脑**。上一阶段过关再进入下一阶段。
+整体分两块：**阶段 0–4 造机器人的能力（身体），阶段 5–6 给车装 AI 大脑**。上一阶段过关再进入下一阶段。表中章节名均链接到官方教程仓库的对应课程目录。
 
 | 阶段 | 官方章节 | 内容 | 过关标准 | 参考时长 |
 |---|---|---|---|---|
-| 0 入门玩车 | 00 配置与操作指南 | 开机，手柄/APP 控车，SSH/VNC 远程登录，机械臂标定 | 独立开机并远程登录车上电脑 | 1–2 天 |
-| 1 打地基 | 22 Linux → 21 主控 → 20 OpenCV | Linux 命令与远程；RPi5/Jetson 烧录；图像读写与变换 | 熟练命令行，能烧系统，OpenCV 能做几何变换 | 2–4 周 |
-| 2 ROS 核心 | 23 ROS2 基础 | 节点、话题、服务，URDF、Gazebo、TF2（19 Docker 选学） | 能写自己的节点和话题通信 | 3–4 周 |
-| 3 动+看 | 01 底盘 → 02 激光雷达 → 03 深度相机 | 底盘控制；SLAM 建图与 Nav2 导航；YOLOv8 检测 | 独立完成建图导航，跑通 YOLOv8 | 3–4 周 |
-| 4 视觉+臂 | 15 Mediapipe → 04 机械臂 → 16 MoveIt2 → 05 路网 | 手势识别；3D 抓取分拣；仿真联动；路点导航 | 机械臂完成颜色分拣 | 3–4 周 |
-| 5 大模型基础 | 11 → 12 → 13/14 | 大模型原理、RAG；Dify 工作流与知识库；多模态应用 | 用 Dify 搭一个带知识库的对话工作流 | 2–3 周 |
-| 6 具身实战 | 06–10 OpenClaw | 基础与交互；MCP 二次开发；具身应用；场景沙盘 | 大模型经 MCP 指挥小车完成任务 | 3–4 周 |
-| 7 进阶（可选） | 18 控制板 → 17 多车 | STM32/micro-ROS 底层；多车编队协同 | 按项目需要选学 | 3+ 周 |
+| 0 入门玩车 | [00 配置与操作指南](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/00.Configuration%20and%20Operation%20Guide) | 开机，手柄/APP 控车，SSH/VNC 远程登录，机械臂标定 | 独立开机并远程登录车上电脑 | 1–2 天 |
+| 1 打地基 | [22 Linux](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/22.Linux%20System%20Course) → [21 主控](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/21.Main%20Control%20Course) → [20 OpenCV](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/20.Image%20Processing%20Basics%20Course) | Linux 命令与远程；RPi5/Jetson 烧录；图像读写与变换 | 熟练命令行，能烧系统，OpenCV 能做几何变换 | 2–4 周 |
+| 2 ROS 核心 | [23 ROS2 基础](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/23.ROS%20Basic%20Course)（[19 Docker](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/19.Docker%20Course) 选学） | 节点、话题、服务，URDF、Gazebo、TF2 | 能写自己的节点和话题通信 | 3–4 周 |
+| 3 动+看 | [01 底盘](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/01.Chassis%20Control%20Course) → [02 激光雷达](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/02.Lidar%20Course) → [03 深度相机](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/03.Depth%20Camera%20Course) | 底盘控制；SLAM 建图与 Nav2 导航；YOLOv8 检测 | 独立完成建图导航，跑通 YOLOv8 | 3–4 周 |
+| 4 视觉+臂 | [15 Mediapipe](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/15.Mediapipe%20Visual%20Course) → [04 机械臂](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/04.Robotic%20Arm%20and%203D%20Space%20Gripping%20Course) → [16 MoveIt2](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/16.MoveIt2%20Simulation%20Course) → [05 路网](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/05.Road%20network%20planning%20and%20navigation) | 手势识别；3D 抓取分拣；仿真联动；路点导航 | 机械臂完成颜色分拣 | 3–4 周 |
+| 5 大模型基础 | [11 原理](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/11.AI%20Model%20Basics) → [12 开发](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/12.AI%20Model%20Development) → [13 语音版](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/13.AI%20Model%20-%20Voice%20Version) / [14 文字版](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/14.AI%20Model%20-%20Text%20Version) | 大模型原理、RAG；Dify 工作流与知识库；多模态应用 | 用 Dify 搭一个带知识库的对话工作流 | 2–3 周 |
+| 6 具身实战 | [06 基础](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/06.OpenClaw%20Basic%20Course) → [07 交互](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/07.OpenClaw%20Interaction%20Method) → [08 MCP 开发](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/08.OpenClaw%20Development) → [09 具身应用](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/09.OpenClaw%20Embodied%20intelligent%20application) → [10 场景沙盘](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/10.OpenClaw%20scenario%20sandbox) | OpenClaw 基础与交互；MCP 二次开发；具身应用；场景沙盘 | 大模型经 MCP 指挥小车完成任务 | 3–4 周 |
+| 7 进阶（可选） | [18 控制板](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/18.Control%20Board%20Course) → [17 多车](https://github.com/YahboomTechnology/ROSMASTER-M3PRO/tree/main/17.Multi-vehicle%20Course) | STM32/micro-ROS 底层；多车编队协同 | 按项目需要选学 | 3+ 周 |
 
 ### 知识结构树
 
