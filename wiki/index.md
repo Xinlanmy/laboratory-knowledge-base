@@ -4,11 +4,11 @@
 
 ## 实验室知识体系
 
-- [基础知识](../docs/知识体系/基础知识/index.md) — 已登记：终端服务部（终端与命令、计算机基础）；其余部门仓库映射待登记。
-- [技术模块](../docs/知识体系/技术模块/index.md) — 已登记：终端服务部（Tailscale 组网、Agent 平台部署、监控与备份）；其余部门仓库映射待登记。
-- [学习课程](../docs/知识体系/学习课程/index.md) — 已登记：[亚博智能小车学习指南（ROSMASTER M3 PRO）](../docs/知识体系/学习课程/亚博智能小车/index.md)，正文来源为 Yahboom 官方教程仓库；终端服务部学习路径与课程；其余学习路径仓库映射待登记。
-- [项目实践](../docs/知识体系/项目实践/index.md) — 已登记：终端服务部（目录已建立，正文补充中）；其余部门仓库映射待登记。
-- [技术经验](../docs/知识体系/技术经验/index.md) — 已登记：终端服务部（3 篇排障复盘）；其余部门仓库映射待登记。
+- [基础知识](../docs/知识体系/基础知识/index.md) — 已登记：终端服务部（终端与命令行、计算机基础、开发经验，见其仓库 `参考/`）；其余部门仓库映射待登记。
+- [技术模块](../docs/知识体系/技术模块/index.md) — 已登记：终端服务部（Tailscale 组网、Agent 平台部署、监控与备份等，见其仓库 `参考/`）、机器狗（Unitree Go2 动作控制与相机识别）；其余部门仓库映射待登记。
+- [学习课程](../docs/知识体系/学习课程/index.md) — 已登记：[亚博智能小车学习指南（ROSMASTER M3 PRO）](../docs/知识体系/学习课程/亚博智能小车/index.md)（[ROS 小车部门仓库](https://github.com/yukiiiii777/rosmaster-m3pro-guide)），正文来源为 Yahboom 官方教程仓库；终端服务部学习路径与课程；其余学习路径仓库映射待登记。
+- [项目实践](../docs/知识体系/项目实践/index.md) — 已登记：终端服务部（设备与 Agent 统一管理，正文补充中）、机器狗（[YOLO11 目标检测训练流程](https://github.com/shaokai-byte/go2)）；其余部门仓库映射待登记。
+- [技术经验](../docs/知识体系/技术经验/index.md) — 已登记：终端服务部（3 篇排障复盘，见其仓库 `经验/`）；其余部门仓库映射待登记。
 - [历史与交接](../docs/知识体系/历史与交接/index.md) — 已登记：终端服务部（2025 年秋季教学进度）；其余部门仓库映射待登记。
 
 ## 规范与维护
@@ -18,6 +18,10 @@
 
 ## 部门正文仓库
 
-已登记：**终端服务部** —— 仓库 [publieople/lab-terminal-service](https://github.com/publieople/lab-terminal-service)，在线阅读 [publieople.github.io/lab-terminal-service](https://publieople.github.io/lab-terminal-service/)。覆盖基础知识、技术模块、学习课程、项目实践、技术经验、历史与交接六个分类，各分类入口见[部门正文仓库清单](../sources/repositories.md)中的「终端服务部 · 分类入口」。
+已登记：**终端服务部** —— 仓库 [publieople/lab-terminal-service](https://github.com/publieople/lab-terminal-service)，在线阅读 [publieople.github.io/lab-terminal-service](https://publieople.github.io/lab-terminal-service/)。2026-10-12 起内部结构为四条内容线 + 记录 + 管理页（`参考`、`学习`、`项目`、`经验`、`历史与交接`），与主书六类目录的对应关系见[部门正文仓库清单](../sources/repositories.md)。
+
+已登记：**机器狗** —— 仓库 [shaokai-byte/go2](https://github.com/shaokai-byte/go2)（Unitree Go2 二次开发：动作控制、相机识别、YOLO11 目标检测训练）。
+
+已登记：**ROS 小车** —— 仓库 [yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide)（亚博智能小车 ROSMASTER M3 PRO 零基础学习指南）。
 
 其余各部门正文仓库和章节 URL 尚待补充。收到链接后按“分类、章节标题、所属部门、正文 URL、维护状态”登记在[部门正文仓库清单](../sources/repositories.md)。这里只维护来源元数据和导航摘要，不存放正文。

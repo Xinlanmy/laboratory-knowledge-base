@@ -33,3 +33,10 @@
 - 8 阶段路线表中所有官方章节名改为直达 Yahboom 教程仓库对应课程目录的链接（目录路径已逐一通过 API 核对存在），成员可一步到达正文。
 - 指南状态由「草稿」升级为「已核实」，维护日期更新为 2026-10-11；同步更新学习课程目录页状态。
 - 仍遵守「只登记、不复制正文」约定，未复制任何官方教程内容。
+
+## [2026-10-12] catalog | 登记机器狗与 ROS 小车仓库，并同步终端服务部 v2 结构
+
+- 新登记部门仓库：**机器狗** [shaokai-byte/go2](https://github.com/shaokai-byte/go2)（维护账号 [@shaokai-byte](https://github.com/shaokai-byte)，Unitree Go2 二次开发：动作控制、相机识别、YOLO11 目标检测训练全流程）；**ROS 小车** [yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide)（维护账号 [@yukiiiii777](https://github.com/yukiiiii777)，亚博智能小车 ROSMASTER M3 PRO 零基础学习指南）。
+- 同步更新 `sources/repositories.md`（部门行 + 分类入口表）、`docs/知识体系/index.md`（部门入口表与分类状态）、技术模块 / 学习课程 / 项目实践三个分类页，以及 `wiki/index.md`。
+- **修复失效链接**：终端服务部 2026-10-12 起把仓库内部结构收敛为「四条内容线 + 记录 + 管理页」，原「学习课程」「项目实践」「技术经验」改名为 `学习/`「项目」「经验」，「基础知识」与「技术模块」合并为 `参考/`。原先登记的 5 个分类入口 URL 已全部 404，本次按新目录更新，并在 `sources/repositories.md` 增加「主书分类 ↔ 部门仓库目录」对应表，便于以后核对。
+- 分类名仍由主书统一为六类，部门仓库内部目录自定，两者用对应表对齐。

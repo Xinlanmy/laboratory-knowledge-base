@@ -6,7 +6,8 @@
 
 | 部门 | 章节 | 入口 |
 |---|---|---|
-| 终端服务部 | 项目实践目录已建立，正文正在补充 | [在线阅读](https://publieople.github.io/lab-terminal-service/部门/终端服务部/项目实践/) ｜ [仓库目录](https://github.com/publieople/lab-terminal-service/tree/main/docs/部门/终端服务部/项目实践) |
+| 终端服务部 | 设备与 Agent 统一管理（目录已建立，正文补充中；2026-10-12 起在部门仓库的 `项目/` 目录下） | [在线阅读](https://publieople.github.io/lab-terminal-service/部门/终端服务部/项目/) ｜ [仓库目录](https://github.com/publieople/lab-terminal-service/tree/main/docs/部门/终端服务部/项目) |
+| 机器狗 | YOLO11 目标物体检测模型训练全流程 | [仓库 README](https://github.com/shaokai-byte/go2#readme) ｜ [仓库目录](https://github.com/shaokai-byte/go2/tree/main/yolo11) |
 
 **其他项目仓库链接：待补充。**
 
