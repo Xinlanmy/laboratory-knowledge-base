@@ -6,7 +6,7 @@
 
 | 部门 | 章节 | 入口 |
 |---|---|---|
-| 终端服务部 | 服务进程脱离任务托管、双启动器竞争导致服务卡死、端口占用导致同域名本机访问 404 | [在线阅读](https://publieople.github.io/lab-terminal-service/部门/终端服务部/技术经验/) ｜ [仓库目录](https://github.com/publieople/lab-terminal-service/tree/main/docs/部门/终端服务部/技术经验) |
+| 终端服务部 | 服务进程脱离任务托管、双启动器竞争导致服务卡死、端口占用导致同域名本机访问 404（2026-10-12 起在部门仓库的 `经验/` 目录下） | [在线阅读](https://publieople.github.io/lab-terminal-service/部门/终端服务部/经验/) ｜ [仓库目录](https://github.com/publieople/lab-terminal-service/tree/main/docs/部门/终端服务部/经验) |
 
 **其他章节仓库链接：待补充。**
 
