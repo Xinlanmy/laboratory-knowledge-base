@@ -24,4 +24,6 @@
 
 已登记：**ROS 小车** —— 仓库 [yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide)（亚博智能小车 ROSMASTER M3 PRO 零基础学习指南）。
 
+已登记：**工业设计** —— 仓库 [TDFbyLEGO/lab-industrial-design](https://github.com/TDFbyLEGO/lab-industrial-design)（2026-10-15 初始化：基础知识、技术模块、学习课程、项目实践、技术经验、历史与交接六个分类入口已建立，正文待补充；该仓库尚未启用在线阅读站点）。六个入口的目录级 URL 见[部门正文仓库清单](../sources/repositories.md)。
+
 其余各部门正文仓库和章节 URL 尚待补充。收到链接后按“分类、章节标题、所属部门、正文 URL、维护状态”登记在[部门正文仓库清单](../sources/repositories.md)。这里只维护来源元数据和导航摘要，不存放正文。

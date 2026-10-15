@@ -13,6 +13,8 @@
 | 技术经验 | [技术经验](技术经验/index.md) | 已登记：终端服务部 |
 | 历史与交接 | [历史与交接](历史与交接/index.md) | 已登记：终端服务部 |
 
+工业设计部的六个分类入口已于 2026-10-15 登记（仓库结构已初始化，正文待补充），各分类页只登记入口链接，不复制正文。
+
 ## 部门入口
 
 以下部门已纳入全书目录。仓库地址已登记的给出仓库与在线阅读入口，未提供的标为待提供；链接统一登记在[部门正文仓库清单](https://github.com/Xinlanmy/laboratory-knowledge-base/blob/main/sources/repositories.md)。
@@ -22,7 +24,7 @@
 | 机器狗 | [shaokai-byte/go2](https://github.com/shaokai-byte/go2) |
 | 双足轮式机器人 | 待提供 |
 | ROS 小车 | [yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide) |
-| 工业设计 | 待提供 |
+| 工业设计 | [TDFbyLEGO/lab-industrial-design](https://github.com/TDFbyLEGO/lab-industrial-design)（未启用在线阅读） |
 | 机械臂 | 待提供 |
 | 嵌入式开发 | 待提供 |
 | 终端服务部 | [publieople/lab-terminal-service](https://github.com/publieople/lab-terminal-service) ｜ [在线阅读](https://publieople.github.io/lab-terminal-service/) |

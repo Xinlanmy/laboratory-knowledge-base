@@ -25,3 +25,9 @@
 - 新登记部门仓库：**机器狗** [shaokai-byte/go2](https://github.com/shaokai-byte/go2)（Unitree Go2 二次开发：动作控制、相机识别、YOLO11 目标检测训练全流程）；**ROS 小车** [yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide)（亚博智能小车 ROSMASTER M3 PRO 零基础学习指南）。
 - 同步更新部门正文仓库清单、全书目录、技术模块 / 学习课程 / 项目实践分类页与 Wiki 索引。
 - 修复失效链接：终端服务部仓库内部结构改为「四条内容线 + 记录 + 管理页」后，原先登记的 5 个分类入口 URL 已 404，本次按新目录（`参考/`、`学习/`、`项目/`、`经验/`）更新，并增加「主书分类 ↔ 部门仓库目录」对应表。
+
+## [2026-10-15] catalog | 登记工业设计部仓库
+
+- 登记部门：**工业设计**，维护账号 [@TDFbyLEGO](https://github.com/TDFbyLEGO)，正文仓库 <https://github.com/TDFbyLEGO/lab-industrial-design>；仓库 2026-10-15 初始化，六个分类目录已建立、正文待补充。
+- 六个分类入口按目录级 URL 登记，指向 GitHub 目录页（该仓库未启用 GitHub Pages）；同步更新部门正文仓库清单、全书目录、六个分类页与 Wiki 索引。
+- 未复制任何正文；登记前链接已逐一实测可访问。

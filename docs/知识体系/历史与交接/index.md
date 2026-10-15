@@ -7,5 +7,6 @@
 | 部门 | 章节 | 入口 |
 |---|---|---|
 | 终端服务部 | 2025 年秋季教学进度 | [在线阅读](https://publieople.github.io/lab-terminal-service/部门/终端服务部/历史与交接/) ｜ [仓库目录](https://github.com/publieople/lab-terminal-service/tree/main/docs/部门/终端服务部/历史与交接) |
+| 工业设计 | 分类入口已建立，正文待补充（2026-10-15 登记） | [仓库目录](https://github.com/TDFbyLEGO/lab-industrial-design/tree/main/docs/%E5%8E%86%E5%8F%B2%E4%B8%8E%E4%BA%A4%E6%8E%A5) |
 
 **其他章节仓库链接：待补充。**
