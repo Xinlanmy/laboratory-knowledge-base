@@ -1,0 +1,79 @@
+name: Link check
+
+# 第一层链接门：只查外链是否可达。
+# 站内链接由 `mkdocs build --strict` 负责，两者互补。
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # 每天 UTC 01:00（北京时间 09:00）。外链会在没人改代码的情况下失效，
+    # 只挂 pull_request 的话，长期没人动过的登记页烂了也不会有人知道。
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    name: 外链检查（lychee）
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 检查 Markdown 里的外链
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 参数说明：
+          #   --accept 200,206,429,503  206 是分段内容，429 是被限流，503 是服务端暂时不可用，都不算失效
+          #   404 / 410 是真失效，绝不放进 accept；403 也不放（可能是已下线或反爬，需要人看一眼）
+          #   --max-retries / --timeout  对慢站点重试，避免把网络抖动当失效
+          # 排除清单目前为空。将来要排除某家站点，必须在这行写明是哪家、为什么。
+          args: >-
+            --no-progress
+            --accept 200,206,429,503
+            --max-retries 3
+            --retry-wait-time 5
+            --timeout 30
+            --exclude-path site
+            'docs/**/*.md' '*.md'
+          output: lychee/out.md
+          fail: false
+
+      - name: PR 与推送：有失效链接就让作业红
+        if: steps.lychee.outputs.exit_code != 0 && github.event_name != 'schedule'
+        run: |
+          echo "链接检查发现失效链接。修好后重新推送；如果是对方站点已下线，"
+          echo "把 sources/repositories.md 里对应行的状态改为「已失效」并写明原因与日期。"
+          exit 1
+
+      - name: 定时运行：开 Issue 并附报告
+        if: steps.lychee.outputs.exit_code != 0 && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const title = '链接检查：发现失效链接';
+            const report = fs.existsSync('lychee/out.md')
+              ? fs.readFileSync('lychee/out.md', 'utf8')
+              : '（lychee 未生成报告文件，请查看该次运行的日志）';
+            const body = [
+              `定时链接检查（${new Date().toISOString()}）发现失效链接。`,
+              '',
+              '处理方式：修好链接；如果对方站点确实已下线，把 `sources/repositories.md` 里对应行的状态改为 `已失效`，写明原因与日期，并保留该行。',
+              '',
+              '---',
+              '',
+              report,
+            ].join('\n');
+            const { owner, repo } = context.repo;
+            const open = await github.rest.issues.listForRepo({ owner, repo, state: 'open', per_page: 100 });
+            const existing = open.data.find((i) => i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({ owner, repo, issue_number: existing.number, body });
+            } else {
+              await github.rest.issues.create({ owner, repo, title, body });
+            }
