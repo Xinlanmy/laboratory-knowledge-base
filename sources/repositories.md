@@ -9,7 +9,7 @@
 | ROS 小车 | ROS 小车部门（维护账号 [@yukiiiii777](https://github.com/yukiiiii777)） | 学习课程：亚博智能小车（ROSMASTER M3 PRO）零基础学习指南 | [yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide) | 已登记 |
 | 工业设计 | 工业设计部门（维护账号 [@TDFbyLEGO](https://github.com/TDFbyLEGO)） | 基础知识、技术模块、学习课程、项目实践、技术经验、历史与交接（结构已初始化，正文待补充） | [TDFbyLEGO/lab-industrial-design](https://github.com/TDFbyLEGO/lab-industrial-design) | 已登记 |
 | 机械臂 | 机械臂部门 | 技术模块、项目实践、经验复盘等（待确认） | 待提供 | 待登记 |
-| 嵌入式开发 | 嵌入式开发部门 | 技术模块、项目实践、经验复盘等（待确认） | 待提供 | 待登记 |
+| 嵌入式开发 | 嵌入式开发与 PCB 板部门（维护账号 [@zz3304094520-ctrl](https://github.com/zz3304094520-ctrl)） | 学习、设计图、历史、项目、资料五类目录（ESP32 教学与图纸、农业项目归档、开发板资料） | [zz3304094520-ctrl/embedded-development-pcb](https://github.com/zz3304094520-ctrl/embedded-development-pcb) | 已登记 |
 | 终端服务部 | 终端服务部（维护账号 [@publieople](https://github.com/publieople)） | 参考、学习、项目、经验、历史与交接（2026-10-12 起） | [publieople/lab-terminal-service](https://github.com/publieople/lab-terminal-service) | 已登记 |
 
 其余部门对应的知识分类和章节范围需要收到仓库后再确认。添加链接时，请指向具体章节页面或仓库中的 README/目录，方便成员直接到达正文。
@@ -49,6 +49,27 @@
 | 历史与交接 | `docs/历史与交接/` | <https://github.com/TDFbyLEGO/lab-industrial-design/tree/main/docs/%E5%8E%86%E5%8F%B2%E4%B8%8E%E4%BA%A4%E6%8E%A5> |
 
 该仓库 2026-10-15 初始化：六个分类目录与写作模板已建立，正文由部门成员核实后补充。部门报到文件见其仓库 `sources/实验室目录登记信息.md`。
+
+### 嵌入式开发 · 分类入口（2026-10-18 起）
+
+部门总入口：<https://github.com/zz3304094520-ctrl/embedded-development-pcb>
+
+该部门仓库按「学习、设计图、历史、项目、资料」五类组织，与主书六类不是一一对应；下表左侧是主书分类，中间是该部门仓库里实际承载的目录。仓库尚未启用 GitHub Pages，入口指向 GitHub 上的目录页。
+
+| 主书分类 | 部门仓库目录 | 入口 |
+|---|---|---|
+| 基础知识 | `学习/` | <https://github.com/zz3304094520-ctrl/embedded-development-pcb/tree/main/%E5%AD%A6%E4%B9%A0> |
+| 技术模块 | `设计图/`、`资料/` | <https://github.com/zz3304094520-ctrl/embedded-development-pcb/tree/main/%E8%AE%BE%E8%AE%A1%E5%9B%BE> |
+| 学习课程 | `学习/` | <https://github.com/zz3304094520-ctrl/embedded-development-pcb/tree/main/%E5%AD%A6%E4%B9%A0> |
+| 项目实践 | `项目/` | <https://github.com/zz3304094520-ctrl/embedded-development-pcb/tree/main/%E9%A1%B9%E7%9B%AE> |
+| 技术经验 | 暂无独立目录 | 经验内容目前散见于 `项目/` 与 `历史/`，待部门确认后归并 |
+| 历史与交接 | `历史/` | <https://github.com/zz3304094520-ctrl/embedded-development-pcb/tree/main/%E5%8E%86%E5%8F%B2> |
+
+补充说明：
+
+- `资料/` 另存开发板参考手册、驱动、通用固件与部门介绍文档，属参考资料性质，按主书约定归入「技术模块」一侧。
+- 「技术经验」一类暂不新建目录：该部门现有内容的经验部分写在项目记录与历史归档里，强行拆目录会造成同一份材料两处维护；待部门自行划分后再补登记。
+- 仓库 2026-10-17 完成首轮整理（ESP32 教学与图纸、慧田智测/温室控制/单轨播种机归档、OLED 与电机资料）。早期 2026-10-13 至 10-17 之间仓库为私有状态，链接检查曾报 404；现已公开，本表状态改为已登记。
 
 ## 外部资料来源
 

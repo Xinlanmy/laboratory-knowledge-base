@@ -26,4 +26,6 @@
 
 已登记：**工业设计** —— 仓库 [TDFbyLEGO/lab-industrial-design](https://github.com/TDFbyLEGO/lab-industrial-design)（2026-10-15 初始化：基础知识、技术模块、学习课程、项目实践、技术经验、历史与交接六个分类入口已建立，正文待补充；该仓库尚未启用在线阅读站点）。六个入口的目录级 URL 见[部门正文仓库清单](../sources/repositories.md)。
 
+已登记：**嵌入式开发** —— 仓库 [zz3304094520-ctrl/embedded-development-pcb](https://github.com/zz3304094520-ctrl/embedded-development-pcb)（嵌入式开发与 PCB 板部门，2026-10-13 建立、10-17 完成首轮整理后公开；按学习、设计图、历史、项目、资料五类组织，不套用主书六类，对应关系见清单；该仓库尚未启用在线阅读站点）。
+
 其余各部门正文仓库和章节 URL 尚待补充。收到链接后按“分类、章节标题、所属部门、正文 URL、维护状态”登记在[部门正文仓库清单](../sources/repositories.md)。这里只维护来源元数据和导航摘要，不存放正文。

@@ -18,4 +18,4 @@
 
 ## 部门正文仓库
 
-目前已知部门：机器狗、双足轮式机器人、ROS 小车、工业设计、机械臂、嵌入式开发、终端服务部。已登记仓库四家：终端服务部（[publieople/lab-terminal-service](https://github.com/publieople/lab-terminal-service)）、机器狗（[shaokai-byte/go2](https://github.com/shaokai-byte/go2)）、ROS 小车（[yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide)）、工业设计（[TDFbyLEGO/lab-industrial-design](https://github.com/TDFbyLEGO/lab-industrial-design)，六个分类入口已建立、正文待补充）。其余部门仓库和章节 URL 尚待补充；收到地址后还需确认对应知识分类。仓库清单维护在仓库根目录 `sources/repositories.md`。这里只登记来源元数据和导航摘要，不存放正文。
+目前已知部门：机器狗、双足轮式机器人、ROS 小车、工业设计、机械臂、嵌入式开发、终端服务部。已登记仓库五家：终端服务部（[publieople/lab-terminal-service](https://github.com/publieople/lab-terminal-service)）、机器狗（[shaokai-byte/go2](https://github.com/shaokai-byte/go2)）、ROS 小车（[yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide)）、工业设计（[TDFbyLEGO/lab-industrial-design](https://github.com/TDFbyLEGO/lab-industrial-design)，六个分类入口已建立、正文待补充）、嵌入式开发（[zz3304094520-ctrl/embedded-development-pcb](https://github.com/zz3304094520-ctrl/embedded-development-pcb)，按学习、设计图、历史、项目、资料五类组织）。其余部门仓库和章节 URL 尚待补充；收到地址后还需确认对应知识分类。仓库清单维护在仓库根目录 `sources/repositories.md`。这里只登记来源元数据和导航摘要，不存放正文。
