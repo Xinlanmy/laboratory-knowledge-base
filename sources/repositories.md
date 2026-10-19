@@ -6,7 +6,7 @@
 |---|---|---|---|---|
 | 机器狗 | 机器狗部门（维护账号 [@shaokai-byte](https://github.com/shaokai-byte)） | 技术模块：Unitree Go2 动作控制、相机识别；项目实践：YOLO11 目标检测训练全流程 | [shaokai-byte/go2](https://github.com/shaokai-byte/go2) | 已登记 |
 | 双足轮式机器人 | 双足轮式机器人部门 | 技术模块、项目实践、经验复盘等（待确认） | 待提供 | 待登记 |
-| ROS 小车 | ROS 小车部门（维护账号 [@yukiiiii777](https://github.com/yukiiiii777)） | 学习课程：亚博智能小车（ROSMASTER M3 PRO）零基础学习指南 | [yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide) | 已登记 |
+| ROS 小车 | ROS 小车部门（共同维护账号：[@yukiiiii777](https://github.com/yukiiiii777)、[@Xinlanmy](https://github.com/Xinlanmy)） | 学习课程：亚博智能小车（ROSMASTER M3 PRO）零基础学习指南 | [yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide) | 已登记 |
 | 工业设计 | 工业设计部门（维护账号 [@TDFbyLEGO](https://github.com/TDFbyLEGO)） | 基础知识、技术模块、学习课程、项目实践、技术经验、历史与交接（结构已初始化，正文待补充） | [TDFbyLEGO/lab-industrial-design](https://github.com/TDFbyLEGO/lab-industrial-design) | 已登记 |
 | 机械臂 | 机械臂部门 | 技术模块、项目实践、经验复盘等（待确认） | 待提供 | 待登记 |
 | 嵌入式开发 | 嵌入式开发与 PCB 板部门（维护账号 [@zz3304094520-ctrl](https://github.com/zz3304094520-ctrl)） | 学习、设计图、历史、项目、资料五类目录（ESP32 教学与图纸、农业项目归档、开发板资料） | [zz3304094520-ctrl/embedded-development-pcb](https://github.com/zz3304094520-ctrl/embedded-development-pcb) | 已登记 |
