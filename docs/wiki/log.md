@@ -50,3 +50,13 @@
 
 - ROS 小车部门清单补充共同维护账号：[@yukiiiii777](https://github.com/yukiiiii777) 与 [@Xinlanmy](https://github.com/Xinlanmy)。
 - 正文仓库和章节链接保持原登记。
+
+## [2026-10-20] catalog | 部门目录改版：六个部门正式名称与轮式机器人部登记
+
+- 部门名单自 2026-10-20 起固定为六个（中英文对照）：轮式机器人部（Wheeled Robot Department）、工业设计部（Industrial Design Department）、机器狗部（Quadruped Robot Department）、终端服务部（Terminal Service Department）、嵌入式开发部（Embedded Systems Division）、ROS 小车部（ROS Robot Car Division）。`sources/repositories.md` 主表新增「英文名」列，按此顺序排列。
+- 新增登记：**轮式机器人部** —— 仓库 <https://github.com/yukiiiii777/robotics-department>（2026-10-19 建立并推送）。该仓库按编号文档组织（00 部门介绍、01 新生学习路线、02 VLA 入门讲义、03 OpenFlex 资源汇总、04 数采训练推理手册精要、05 导航开发指南精要、06 招新演讲稿，`docs/pdf/` 另存两份手册），未套用主书六类，故新增「主书分类 ↔ 部门文档」对应表：基础知识指向 00 与 01，技术模块指向 02–05，学习课程指向 01，历史与交接指向 00；项目实践与技术经验暂无对应文档，写明现状未新建目录。该仓库尚未启用 GitHub Pages，入口均指向 blob URL。
+- 取消原「双足轮式机器人」「机械臂」两行：前者与轮式机器人部是同一部门的不同叫法，后者是该部门的硬件之一（PiPER 六轴机械臂），不单列为部门；若日后另设双足部门再增行。合并后部门总数为六，与实验室口径一致。
+- 部门名称统一为官方全称：登记表与六个分类页中的「工业设计」「机器狗」「嵌入式开发」「ROS 小车」分别改为「工业设计部」「机器狗部」「嵌入式开发部」「ROS 小车部」。
+- 同步更新 `sources/repositories.md`、`docs/知识体系/index.md`（分类状态表、登记说明、部门入口表）、六个分类页、`docs/index.md`、`README.md`、`wiki/index.md` 与 `docs/wiki/index.md`。
+- 登记前实测：仓库首页与七个文档 blob URL 均返回 200；两次 curl 返回 000 是代理抖动，改用 GitHub API 确认仓库已公开。
+- 补记：ROS 小车部清单补充共同维护账号 [@yukiiiii777](https://github.com/yukiiiii777) 与 [@Xinlanmy](https://github.com/Xinlanmy)。
