@@ -17,4 +17,4 @@
 部门仓库中的章节正文 → 总目录 wiki/ → 点击进入原文学习与复现 → 目录记录更新
 ```
 
-目前已确认纳入目录的部门包括机器狗、双足轮式机器人、ROS 小车、工业设计、机械臂、嵌入式开发和终端服务部。其中终端服务部、工业设计部、嵌入式开发部的仓库地址与知识分类入口已经登记，见[全书目录](知识体系/index.md)的部门入口与[部门正文仓库清单](https://github.com/Xinlanmy/laboratory-knowledge-base/blob/main/sources/repositories.md)；其余部门的仓库地址仍待提供。目录项在确认来源前会标为待登记，不会用占位章节冒充已有内容。
+目前已确认纳入目录的部门共六个：轮式机器人部（Wheeled Robot Department）、工业设计部（Industrial Design Department）、机器狗部（Quadruped Robot Department）、终端服务部（Terminal Service Department）、嵌入式开发部（Embedded Systems Division）、ROS 小车部（ROS Robot Car Division），六个部门的仓库地址与知识分类入口均已登记，见[全书目录](知识体系/index.md)的部门入口与[部门正文仓库清单](https://github.com/Xinlanmy/laboratory-knowledge-base/blob/main/sources/repositories.md)。目录项在确认来源前会标为待登记，不会用占位章节冒充已有内容。
