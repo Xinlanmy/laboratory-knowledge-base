@@ -24,7 +24,7 @@
 ## [2026-10-10] catalog | 登记终端服务部章节仓库
 
 - 登记部门：**终端服务部**（上海中侨大学 · 人工智能学院 · 具身智能研究所），维护账号 [@publieople](https://github.com/publieople)。
-- 正文仓库 <https://github.com/publieople/lab-terminal-service>，在线阅读 <https://publieople.github.io/lab-terminal-service/>。
+- 正文仓库 <https://github.com/Zhongqiao-Laboratory/lab-terminal-service>，在线阅读 <https://zhongqiao-laboratory.github.io/lab-terminal-service/>。
 - 该仓库覆盖基础知识、技术模块、学习课程、项目实践、技术经验、历史与交接六个分类。各分类入口为**目录级 URL**，部门仓库新增或调整文档不会改变这些链接，本目录登记一次即可长期使用。
 - 同步更新 `sources/repositories.md`（新增部门行与分类入口表）、`docs/知识体系/index.md`（分类状态与部门入口）、六个分类页（已登记章节）以及 `wiki/index.md`。
 
@@ -73,3 +73,10 @@
 - 同步更新 `sources/repositories.md`、`docs/知识体系/index.md`（分类状态表、登记说明、部门入口表）、六个分类页、`docs/index.md`、`README.md`、`wiki/index.md` 与 `docs/wiki/index.md`。
 - 登记前实测：仓库首页与七个文档 blob URL 均返回 200；两次 curl 返回 000 是代理抖动，改用 GitHub API 确认仓库已公开。
 - 补记：ROS 小车部清单补充共同维护账号 [@yukiiiii777](https://github.com/yukiiiii777) 与 [@Xinlanmy](https://github.com/Xinlanmy)。
+
+## [2026-11-06] catalog | 终端服务部知识库仓库迁至实验室组织
+
+- 正文仓库由个人账号迁到组织 [Zhongqiao-Laboratory](https://github.com/Zhongqiao-Laboratory)，新地址 [Zhongqiao-Laboratory/lab-terminal-service](https://github.com/Zhongqiao-Laboratory/lab-terminal-service)；GitHub 对旧地址保留跳转。
+- 在线阅读地址随之变为 <https://zhongqiao-laboratory.github.io/lab-terminal-service/>，本仓库十处引用已同步替换，并已实测新地址可访问。
+- 组织内用 team 表达层级：部门 team `terminal-service` 下分 `kb`（知识库）、`agent`、`server`、`comfyui` 四个方向；仓库对部门 team 授 write，对 `kb` team 授 maintain。
+- 同步更新 `sources/repositories.md` 的正文仓库一栏与维护说明。
