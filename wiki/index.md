@@ -26,7 +26,7 @@
 
 3. **机器狗部（Quadruped Robot Department）** —— 仓库 [shaokai-byte/go2](https://github.com/shaokai-byte/go2)（Unitree Go2 二次开发：动作控制、相机识别、YOLO11 目标检测训练）。
 
-4. **终端服务部（Terminal Service Department）** —— 仓库 [publieople/lab-terminal-service](https://github.com/publieople/lab-terminal-service)，在线阅读 [publieople.github.io/lab-terminal-service](https://publieople.github.io/lab-terminal-service/)。2026-10-12 起内部结构为四条内容线 + 记录 + 管理页（`参考`、`学习`、`项目`、`经验`、`历史与交接`）。
+4. **终端服务部（Terminal Service Department）** —— 仓库 [publieople/lab-terminal-service](https://github.com/Zhongqiao-Laboratory/lab-terminal-service)，在线阅读 [zhongqiao-laboratory.github.io/lab-terminal-service](https://zhongqiao-laboratory.github.io/lab-terminal-service/)。2026-10-12 起内部结构为四条内容线 + 记录 + 管理页（`参考`、`学习`、`项目`、`经验`、`历史与交接`）。
 
 5. **嵌入式开发部（Embedded Systems Division）** —— 仓库 [zz3304094520-ctrl/embedded-development-pcb](https://github.com/zz3304094520-ctrl/embedded-development-pcb)。2026-10-13 建立、10-17 完成首轮整理后公开；按学习、设计图、历史、项目、资料五类组织，不套用主书六类；尚未启用在线阅读站点。
 

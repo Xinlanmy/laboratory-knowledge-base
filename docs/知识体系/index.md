@@ -26,7 +26,7 @@
 | 轮式机器人部 | Wheeled Robot Department | [yukiiiii777/robotics-department](https://github.com/yukiiiii777/robotics-department)（未启用在线阅读） |
 | 工业设计部 | Industrial Design Department | [TDFbyLEGO/lab-industrial-design](https://github.com/TDFbyLEGO/lab-industrial-design)（未启用在线阅读） |
 | 机器狗部 | Quadruped Robot Department | [shaokai-byte/go2](https://github.com/shaokai-byte/go2) |
-| 终端服务部 | Terminal Service Department | [publieople/lab-terminal-service](https://github.com/publieople/lab-terminal-service) ｜ [在线阅读](https://publieople.github.io/lab-terminal-service/) |
+| 终端服务部 | Terminal Service Department | [publieople/lab-terminal-service](https://github.com/Zhongqiao-Laboratory/lab-terminal-service) ｜ [在线阅读](https://zhongqiao-laboratory.github.io/lab-terminal-service/) |
 | 嵌入式开发部 | Embedded Systems Division | [zz3304094520-ctrl/embedded-development-pcb](https://github.com/zz3304094520-ctrl/embedded-development-pcb)（未启用在线阅读） |
 | ROS 小车部 | ROS Robot Car Division | [yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide) |
 

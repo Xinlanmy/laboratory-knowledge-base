@@ -7,7 +7,7 @@
 | 轮式机器人部 | Wheeled Robot Department | [@yukiiiii777](https://github.com/yukiiiii777) | 部门介绍、新生学习路线、VLA 入门讲义、OpenFlex 资源与手册精要、导航开发指南 | [yukiiiii777/robotics-department](https://github.com/yukiiiii777/robotics-department) | 已登记 |
 | 工业设计部 | Industrial Design Department | [@TDFbyLEGO](https://github.com/TDFbyLEGO) | 基础知识、技术模块、学习课程、项目实践、技术经验、历史与交接（结构已初始化，正文待补充） | [TDFbyLEGO/lab-industrial-design](https://github.com/TDFbyLEGO/lab-industrial-design) | 已登记 |
 | 机器狗部 | Quadruped Robot Department | [@shaokai-byte](https://github.com/shaokai-byte) | 技术模块：Unitree Go2 动作控制、相机识别；项目实践：YOLO11 目标检测训练全流程 | [shaokai-byte/go2](https://github.com/shaokai-byte/go2) | 已登记 |
-| 终端服务部 | Terminal Service Department | [@publieople](https://github.com/publieople) | 参考、学习、项目、经验、历史与交接（2026-10-12 起） | [publieople/lab-terminal-service](https://github.com/publieople/lab-terminal-service) | 已登记 |
+| 终端服务部 | Terminal Service Department | [@publieople](https://github.com/publieople)（2026-11-06 起仓库归组织 [Zhongqiao-Laboratory](https://github.com/Zhongqiao-Laboratory)） | 参考、学习、项目、经验、历史与交接（2026-10-12 起） | [Zhongqiao-Laboratory/lab-terminal-service](https://github.com/Zhongqiao-Laboratory/lab-terminal-service) | 已登记 |
 | 嵌入式开发部 | Embedded Systems Division | [@zz3304094520-ctrl](https://github.com/zz3304094520-ctrl) | 学习、设计图、历史、项目、资料五类目录（ESP32 教学与图纸、农业项目归档、开发板资料） | [zz3304094520-ctrl/embedded-development-pcb](https://github.com/zz3304094520-ctrl/embedded-development-pcb) | 已登记 |
 | ROS 小车部 | ROS Robot Car Division | [@yukiiiii777](https://github.com/yukiiiii777)、[@Xinlanmy](https://github.com/Xinlanmy) | 学习课程：亚博智能小车（ROSMASTER M3 PRO）零基础学习指南 | [yukiiiii777/rosmaster-m3pro-guide](https://github.com/yukiiiii777/rosmaster-m3pro-guide) | 已登记 |
 
@@ -17,16 +17,16 @@
 
 ### 终端服务部 · 分类入口（2026-10-12 起）
 
-部门总入口：<https://publieople.github.io/lab-terminal-service/部门/终端服务部/>
+部门总入口：<https://zhongqiao-laboratory.github.io/lab-terminal-service/部门/终端服务部/>
 
 | 主书分类 | 部门仓库目录 | 入口 |
 |---|---|---|
-| 基础知识 | `参考/` | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/参考/> |
-| 技术模块 | `参考/` | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/参考/> |
-| 学习课程 | `学习/` | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/学习/> |
-| 项目实践 | `项目/` | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/项目/> |
-| 技术经验 | `经验/` | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/经验/> |
-| 历史与交接 | `历史与交接/` | <https://publieople.github.io/lab-terminal-service/部门/终端服务部/历史与交接/> |
+| 基础知识 | `参考/` | <https://zhongqiao-laboratory.github.io/lab-terminal-service/部门/终端服务部/参考/> |
+| 技术模块 | `参考/` | <https://zhongqiao-laboratory.github.io/lab-terminal-service/部门/终端服务部/参考/> |
+| 学习课程 | `学习/` | <https://zhongqiao-laboratory.github.io/lab-terminal-service/部门/终端服务部/学习/> |
+| 项目实践 | `项目/` | <https://zhongqiao-laboratory.github.io/lab-terminal-service/部门/终端服务部/项目/> |
+| 技术经验 | `经验/` | <https://zhongqiao-laboratory.github.io/lab-terminal-service/部门/终端服务部/经验/> |
+| 历史与交接 | `历史与交接/` | <https://zhongqiao-laboratory.github.io/lab-terminal-service/部门/终端服务部/历史与交接/> |
 
 上表左侧是主书的六类目录，中间是该部门仓库里实际对应的目录。部门调整内部结构时，应同时更新本表与各分类页的链接——**分类名由主书统一，目录名由部门自定，两者用本表对齐**。
 
